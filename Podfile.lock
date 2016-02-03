@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (3.1.5)
+  - Moya/Core (6.0.0):
+    - Alamofire (~> 3.0)
+    - Result (~> 1.0)
+  - Moya/RxSwift (6.0.0):
+    - Moya/Core
+    - RxSwift (= 2.0.0)
+  - Result (1.0.1)
+  - RxCocoa (2.1.0):
+    - RxSwift (~> 2.0)
+  - RxSwift (2.0.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Moya/RxSwift
+  - RxCocoa (~> 2.0)
+  - RxSwift (~> 2.0)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 929539eb6a3304eaa9153ca44041a78b85bf2ee5
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  Moya: 9bd9f20e6451c820c17ca40e1b3f6489757fa821
+  Result: caef80340451e1f07492fa1e89117f83613bce24
+  RxCocoa: 79b5feb8378545336e756a0a33fcf5e95050b71c
+  RxSwift: d83246efa6f16c50c143bec134649d045498f601
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
